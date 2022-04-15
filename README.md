@@ -99,6 +99,7 @@ HexaEight_Token_Issuer.exe213176019588..................CB106370BHexaEight Token
 
 There should be no leading or trailing spaces. Paste this in an online tool https://sha512.online/ and click on the generate hash button. You will see a generated  hash that should match with the below VerifiedHash shown below. If the hash matches, the executable is safe.
 
+```
 -----------------------------------------------------------
 FileName : HexaEight_Token_Issuer.exe
 VerifiedHash : 1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
@@ -118,6 +119,7 @@ Note: This message wont be displayed if this File or Software was altered or tam
 This is a Software Publisher Certificate Published by AUTH.HEXAEIGHT.COM and Certified by AUTH.HEXAEIGHT.COM
 This message was generated at 4/15/2022 11:45:21 AM
 -----------------------------------------------------------
+```
 
 ### METHOD 2: Run the program with the verifycert option to validate the executable using the HIC file.
 
