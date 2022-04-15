@@ -22,13 +22,15 @@ In order to run HexaEight Tokens on your machine you need a certficate file issu
 
 HexaEight Releases are NOT digitally signed using Code certificates.  As such they may be prone to modifications.  Hence we have introduced HexaEight Certificates which are a alternative to Code signing certificates for quick verification.
 
-HexaEight Issued Certificates uses Authenticated Encryption Technlogy to establish the authenticty of the Executable. While HexaEight Issed Certificates DOES NOT prevent an attacker from tampering with the executable, it does help in verifying the AUTHENTICITY of executable prior to execution.
+HexaEight Issued Certificates uses Authenticated Encryption Technlogy to establish the authenticty of the Executable. While HexaEight Issued Certificates DOES NOT prevent an attacker from tampering with the executable, it does help in verifying the AUTHENTICITY of executable prior to execution.
 
 NOTE: HexaEight Executables protected by HIC are not allowed to change the name of the executable under normal conditions, the executable wont run if the name of the executable is changed.
 
 ### Sample output of the executable.
 
+```
 c:\tokens>HexaEight_Token_Issuer.exe --help
+
 HexaEight_Token_Issuer 1.6.801
 (c) HexaEight.com All Rights Reserved
 
@@ -51,6 +53,8 @@ HexaEight_Token_Issuer 1.6.801
   --help                       Display this help screen.
 
   --version                    Display version information.
+  
+  ```
   
  
  ### How to verify the AUTHENTICITY of the executable ?
