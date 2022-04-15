@@ -4,19 +4,21 @@ This Repository contains the links to the Latest Release of HexaEight Tokens alo
 
 ### HexaEight Tokens is currently available for the following Platforms
 
-[Windows (64 bit version)](https://www.hexaeight.com/downloads/win_x64/HexaEight_Token_Issuer_winx64.zip)
+#### [Windows (64 bit version)](https://www.hexaeight.com/downloads/win_x64/HexaEight_Token_Issuer_winx64.zip)
 
-  The zip file contains an executable for Windows Platform. 
-  You will also need to [download](https://github.com/HexaEightTeam/HexaEight_Tokens/blob/main/win_x64/HexaEight_Token_Issuer.hic) the .hic file which is tied to this executable which is present in the win_x64 folder
+>The zip file contains an executable for Windows Platform. 
+>
+>You will also need to [download](https://github.com/HexaEightTeam/HexaEight_Tokens/blob/main/win_x64/HexaEight_Token_Issuer.hic) the .hic file which is tied to this executable which is present in the win_x64 folder
+>
+>The current Verified hash of Windows x64 Executable is  1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
+>
   
-  The current Verified hash of Windows x64 Executable is 1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
   
-  
-Linux (64 bit version) - Link should be available soon
+#### Linux (64 bit version) - Link should be available soon
 
-Osx (64 bit version) - Link should be available soon
+#### Osx (64 bit version) - Link should be available soon
 
-ARM (Raspberry pi version) - Link should be available soon
+#### ARM (Raspberry pi version) - Link should be available soon
 
 
 In order to run HexaEight Tokens on your machine you need a certficate file issued by HexaEight also known as HexaEight Issued Certificates (HIC)
