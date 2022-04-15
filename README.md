@@ -129,7 +129,9 @@ This message was generated at 4/15/2022 11:45:21 AM
 
 You should see a message that contains the authenticated encrypted information from the HIC file which was decrypted using the Hash of the File which would prove the authenticity of the executable.
 
+```
 c:\tokens>HexaEight_Token_Issuer.exe --verifycert
+
 -----------------------------------------------------------
 FileName : HexaEight_Token_Issuer.exe
 VerifiedHash : 1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
@@ -149,6 +151,7 @@ Note: This message wont be displayed if this File or Software was altered or tam
 This is a Software Publisher Certificate Published by AUTH.HEXAEIGHT.COM and Certified by AUTH.HEXAEIGHT.COM
 This message was generated at 4/15/2022 11:45:21 AM
 -----------------------------------------------------------
+```
 
 ### Method 3: A Web page that allows you to verify the authenticity of the Executable is still in progress. We will update the information once its ready.
 
