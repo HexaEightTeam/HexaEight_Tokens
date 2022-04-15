@@ -104,7 +104,7 @@ In order to verify the hash, you need to take four properties from the file:
 
 HexaEight_Token_Issuer.exe213176019588..................CB106370BHexaEight Token Issuer Service 1.6.801.0
 
-There should be no leading or trailing spaces. Paste this in an online tool https://sha512.online/ and click on the generate hash button. You will see a generated  hash that should match with the below VerifiedHash shown below. If the hash matches, the executable is safe.
+There should be no leading or trailing spaces. Paste this in an online tool https://sha512.online/ and click on the generate hash button. You will see a generated  hash that should match with the VerifiedHash. If the hash matches, the executable is safe.
 
 ```
 -----------------------------------------------------------
