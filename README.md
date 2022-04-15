@@ -10,7 +10,7 @@ This Repository contains the links to the Latest Release of HexaEight Tokens alo
 >
 >You will also need to [download](https://github.com/HexaEightTeam/HexaEight_Tokens/blob/main/win_x64/HexaEight_Token_Issuer.hic) the .hic file which is tied to this executable which is present in the win_x64 folder
 >
->The current Verified hash of Windows x64 Executable is  1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
+>The current HexaEight Verified hash (Not the same as the File hash) of Windows x64 Executable is  1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
 >
   
   
