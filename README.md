@@ -68,7 +68,7 @@ HexaEight_Token_Issuer 1.6.801
  
   1.  Copy the contents of [HexaEight_Token_Issuer.hic file](https://github.com/HexaEightTeam/HexaEight_Tokens/blob/main/win_x64/HexaEight_Token_Issuer.hic) and paste it in the box titled "Paste HexaEight Issued Certificate Token Below"
   
-  2.  Get the Hash of the Executable using a tool or use powershell commannd annd Paste It in the box titled "Paste your File Hash".
+  2.  Get the Hash of the Executable using a tool or use powershell command annd Paste It in the box titled "Paste your File Hash".
     
 ```
 PS C:\tokens> Get-FileHash .\HexaEight_Token_Issuer.exe -Algorithm SHA512 | Format-List
@@ -83,7 +83,7 @@ Path      : C:\tokens\HexaEight_Token_Issuer.exe
 You will see a message which will confirm if the file is safe to execute in your environment. Remove the file if the verification fails.
 
 
-### METHOD 2: The old fashioned way of validting the hash manully without the HIC file. 
+### METHOD 2: The old fashioned way of validating the hash manully without the HIC file. 
  
 a) Get the Hash of the Executable File using a tool or use powershell commannd 
     
