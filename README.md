@@ -64,9 +64,26 @@ HexaEight_Token_Issuer 1.6.801
  
  ### How to verify the AUTHENTICITY of the executable ?
  
- We are still in the stages of making this process easier, but at the moment, there are two ways to verify the authenticty of the executables present in the downloaded zip file
+ ### Method 1: Visit Our [E-Verification Web Page](https://e-verify.hexaeight.com) to instantly verify the certificate.
  
-### METHOD 1: The old fashioned way of validting the hash manully without the HIC file. 
+  1.  Copy the contents of [HexaEight_Token_Issuer.hic file](https://github.com/HexaEightTeam/HexaEight_Tokens/blob/main/win_x64/HexaEight_Token_Issuer.hic) and paste it in the box titled "Paste HexaEight Issued Certificate Token Below"
+  
+  2.  Get the Hash of the Executable using a tool or use powershell commannd annd Paste It in the box titled "Paste your File Hash".
+    
+```
+PS C:\tokens> Get-FileHash .\HexaEight_Token_Issuer.exe -Algorithm SHA512 | Format-List
+
+Algorithm : SHA512
+Hash      : xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Path      : C:\tokens\HexaEight_Token_Issuer.exe
+```
+
+  3. Click the "Validate Certificate" Button.
+
+You will see a message which will confirm if the file is safe to execute in your environment. Remove the file if the verification fails.
+
+
+### METHOD 2: The old fashioned way of validting the hash manully without the HIC file. 
  
 a) Get the Hash of the Executable File using a tool or use powershell commannd 
     
@@ -130,7 +147,7 @@ This message was generated at 4/15/2022 11:45:21 AM
 -----------------------------------------------------------
 ```
 
-### METHOD 2: Run the program with the verifycert option to validate the executable using the HIC file.
+### METHOD 3: Run the program with the verifycert option to validate the executable using the HIC file. (You can use this option after Method #1 succeeds to re-verify the executable multiple times)
 
 You should see a message that contains the authenticated encrypted information from the HIC file which was decrypted using the Hash of the File which would prove the authenticity of the executable.
 
@@ -158,7 +175,6 @@ This message was generated at 4/15/2022 11:45:21 AM
 -----------------------------------------------------------
 ```
 
-### Method 3: A Web page that allows you to verify the authenticity of the Executable is still in progress. We will update the information once its ready.
 
 
  
