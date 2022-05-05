@@ -25,7 +25,7 @@ In order to run HexaEight Tokens on your machine you need a certficate file issu
 
 ### What Are HIC Files:
 
-HexaEight Releases are NOT digitally signed using Code certificates.  As such they may be prone to modifications.  Hence we have introduced HexaEight Certificates which are a alternative to Code signing certificates for quick verification.
+HexaEight Releases are NOT digitally signed using Code certificates.  As such they may be prone to modifications.  Hence we have introduced HexaEight Certificates which are an alternative to Code signing certificates for quick verification.
 
 HexaEight Issued Certificates uses Authenticated Encryption Technlogy to establish the authenticty of the Executable. While HexaEight Issued Certificates DOES NOT prevent an attacker from tampering with the executable, it does help in verifying the AUTHENTICITY of executable prior to execution.
 
