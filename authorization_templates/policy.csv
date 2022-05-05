@@ -1,35 +1,41 @@
-# HexaEight Token Issuer CASBIN Sample Authorization Policy File
+# HexaEight Token Server Authorization - CASBIN Sample Policy File
 
 # The first two line definitions grants default granular
 # permissions to any email user that belogns to a 
 # particular email domain
 
-p, /*@gmail.com, my.resource.com, 1CAF9C5918AF53D00FA13770B6B8A449EA7CE404, login
-p, /*@hexaeight.com, my.resource.com, 1CAF9C5918AF53D00FA13770B6B8A449EA7CE404, login
-p, /*@gmail.com, my.resource.com, 1CAF9C5918AF53D00FA13770B6B8A449EA7CE404, read
-p, /*@hexaeight.com, my.resource.com, 1CAF9C5918AF53D00FA13770B6B8A449EA7CE404, read
+# Application specfic rules
+p, /*@/*./*, domain.com, 253A1C075CCCBB0645E282D3EDF82178907F40BF, login
+p, /*@/*./*, /*@/*./*, 253A1C075CCCBB0645E282D3EDF82178907F40BF, ask
+p, /*@/*./*, api.domain.com, 253A1C075CCCBB0645E282D3EDF82178907F40BF, get
+p, /*@/*./*, api.domain.com, 253A1C075CCCBB0645E282D3EDF82178907F40BF, post
+p, /*@/*./*, api.domain.com, 253A1C075CCCBB0645E282D3EDF82178907F40BF, accesstoken
 
-p, /*@gmail.com, api.resource.com, 1CAF9C5918AF53D00FA13770B6B8A449EA7CE404, read
-p, /*@hexaeight.com, api.resource.com, 1CAF9C5918AF53D00FA13770B6B8A449EA7CE404, read
+# Application specfic rules
+p, /*@mydomain.com, mydomain.com, 822A1C075CCCBB0645E282D3EDF82178907F40BF, login
+p, /*@mydomain.com, /*@mydomain.com, 822A1C075CCCBB0645E282D3EDF82178907F40BF, ask
+p, /*@mydomain.com, api.mydomain.com, 822A1C075CCCBB0645E282D3EDF82178907F40BF, get
+p, /*@mydomain.com, api.mydomain.com, 822A1C075CCCBB0645E282D3EDF82178907F40BF, post
+p, /*@mydomain.com, api.mydomain.com, 822A1C075CCCBB0645E282D3EDF82178907F40BF, put
+p, /*@mydomain.com, api.mydomain.com, 822A1C075CCCBB0645E282D3EDF82178907F40BF, accesstoken
 
+# Deny rules
+p, evil@gmail.com, /*, 253A1C075CCCBB0645E282D3EDF82178907F40BF, deny
+p, oldemployee@mydomain.com, /*, 822A1C075CCCBB0645E282D3EDF82178907F40BF, deny
 
 # The below definitions specify granular permisssions 
 # for each role specific to a resource based on Client ID
-p, admin, my.resource.com,1CAF9C5918AF53D00FA13770B6B8A449EA7CE404,read
-p, admin, my.resource.com,1CAF9C5918AF53D00FA13770B6B8A449EA7CE404,write
-p, admin, my.resource.com,1CAF9C5918AF53D00FA13770B6B8A449EA7CE404,delete
+p, admin, domain.com,253A1C075CCCBB0645E282D3EDF82178907F40BF,read
+p, admin, domain.com,253A1C075CCCBB0645E282D3EDF82178907F40BF,write
+p, admin, domain.com,253A1C075CCCBB0645E282D3EDF82178907F40BF,delete
 
-p, admin, api.resource.com,1CAF9C5918AF53D00FA13770B6B8A449EA7CE404,get
-p, admin, api.resource.com,1CAF9C5918AF53D00FA13770B6B8A449EA7CE404,post
-
-p, user, my.resource.com ,1CAF9C5918AF53D00FA13770B6B8A449EA7CE404,read
-p, user, api.resource.com,1CAF9C5918AF53D00FA13770B6B8A449EA7CE404,get
+p, admin, mydomain.com,822A1C075CCCBB0645E282D3EDF82178907F40BF,get
+p, admin, mydomain.com,822A1C075CCCBB0645E282D3EDF82178907F40BF,post
+p, admin, mydomain.com,822A1C075CCCBB0645E282D3EDF82178907F40BF,put
+p, admin, mydomain.com,822A1C075CCCBB0645E282D3EDF82178907F40BF,patch
+p, admin, mydomain.com,822A1C075CCCBB0645E282D3EDF82178907F40BF,delete
 
 # The below role definitions specify users belonging to
 # each role based on the resource
-# If a user has not been granted a role, they will still match the normal user
-# permissions based on the above scopes
-
-g, admin@hexaeight.com, admin, my.resource.com
-g, someone@gmail.com, user, my.resource.com
-g, adminuser@gmail.com, admin, my.resource.com
+g, admin@domain.com, admin, domain.com
+g, admin@mydomain.com, admin, mydomain.com
