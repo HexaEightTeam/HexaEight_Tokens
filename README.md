@@ -29,7 +29,7 @@ HexaEight Releases are NOT digitally signed using Code certificates.  As such th
 
 HexaEight Issued Certificates uses Authenticated Encryption Technlogy to establish the authenticty of the Executable. While HexaEight Issued Certificates DOES NOT prevent an attacker from tampering with the executable, it does help in verifying the AUTHENTICITY of executable prior to execution.
 
-NOTE: HexaEight Executables protected by HIC are not allowed to change the name of the executable under normal conditions, the executable wont run if the name of the executable is changed.
+**NOTE: HexaEight Executables protected by HIC are not allowed to change the name of the executable under normal conditions, the executable wont run if the name of the executable is changed.**
 
 ### Sample output of the executable.
 
