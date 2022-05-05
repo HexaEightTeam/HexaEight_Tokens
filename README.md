@@ -8,9 +8,9 @@ This Repository contains the links to the Latest Release of HexaEight Tokens alo
 
 >The zip file contains an executable for Windows Platform. 
 >
->You will also need to [download](https://github.com/HexaEightTeam/HexaEight_Tokens/blob/main/win_x64/HexaEight_Token_Issuer.hic) the .hic file which is tied to this executable which is present in the win_x64 folder
+>The zip file also contains the [HexaEight Issued Certificate (.hic) file](https://github.com/HexaEightTeam/HexaEight_Tokens/blob/main/win_x64/HexaEight_Token_Issuer.hic) which is tied to this executable
 >
->The current HexaEight Verified hash (Not the same as the File hash) of Windows x64 Executable is  1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
+>The current HexaEight Verified hash (Not the same as the File hash) of Windows x64 Executable is  c92e3d93f871f7a69ca9cf78c697a5ee99bbb9dab1258eedfe9523b10f02cc14280256422104aa9357f234afe8aa258da237dfc3110d572b84096a923dfc6873
 >
   
   
@@ -128,22 +128,22 @@ There should be no leading or trailing spaces. Paste this in an online tool http
 ```
 -----------------------------------------------------------
 FileName : HexaEight_Token_Issuer.exe
-VerifiedHash : 1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
+VerifiedHash : c92e3d93f871f7a69ca9cf78c697a5ee99bbb9dab1258eedfe9523b10f02cc14280256422104aa9357f234afe8aa258da237dfc3110d572b84096a923dfc6873
 HashAlgorithm : SHA512
 Description : HexaEight Token Issuer Service 1.6.801.0
 Publisher : AUTH.HEXAEIGHT.COM
 Issuer : AUTH.HEXAEIGHT.COM
-Certificate Issued At : 27499997
-Certificate Expiry At : 27759195
+Certificate Issued At : 27528087
+Certificate Expiry At : 27787275
 AuthenticData : This File or Sofware [HexaEight_Token_Issuer.exe] has been verified successfully.
 
 The Hash can also be manually verified by combining the following properties below:
 FILENAME followed By HASHOFTHISFILE followed by DESCRIPTION
-The above SHA512 Hash should match with 1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
+The above SHA512 Hash should match with c92e3d93f871f7a69ca9cf78c697a5ee99bbb9dab1258eedfe9523b10f02cc14280256422104aa9357f234afe8aa258da237dfc3110d572b84096a923dfc6873
 
 Note: This message wont be displayed if this File or Software was altered or tampered.
 This is a Software Publisher Certificate Published by AUTH.HEXAEIGHT.COM and Certified by AUTH.HEXAEIGHT.COM
-This message was generated at 4/15/2022 11:45:21 AM
+This message was generated at 5/5/2022 1:12:09 PM
 -----------------------------------------------------------
 ```
 
@@ -156,22 +156,22 @@ c:\tokens>HexaEight_Token_Issuer.exe --verifycert
 
 -----------------------------------------------------------
 FileName : HexaEight_Token_Issuer.exe
-VerifiedHash : 1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
+VerifiedHash : c92e3d93f871f7a69ca9cf78c697a5ee99bbb9dab1258eedfe9523b10f02cc14280256422104aa9357f234afe8aa258da237dfc3110d572b84096a923dfc6873
 HashAlgorithm : SHA512
 Description : HexaEight Token Issuer Service 1.6.801.0
 Publisher : AUTH.HEXAEIGHT.COM
 Issuer : AUTH.HEXAEIGHT.COM
-Certificate Issued At : 27499997
-Certificate Expiry At : 27759195
+Certificate Issued At : 27528087
+Certificate Expiry At : 27787275
 AuthenticData : This File or Sofware [HexaEight_Token_Issuer.exe] has been verified successfully.
 
 The Hash can also be manually verified by combining the following properties below:
 FILENAME followed By HASHOFTHISFILE followed by DESCRIPTION
-The above SHA512 Hash should match with 1f2852c24b839ed7e98bdc74062111a48f734edcec3b48551c620bc7bee8b6bbd64cee1a074e2b8fb82b2b509504c223fa7fc67b3fb6f26090ffe4ccef6662b8
+The above SHA512 Hash should match with c92e3d93f871f7a69ca9cf78c697a5ee99bbb9dab1258eedfe9523b10f02cc14280256422104aa9357f234afe8aa258da237dfc3110d572b84096a923dfc6873
 
 Note: This message wont be displayed if this File or Software was altered or tampered.
 This is a Software Publisher Certificate Published by AUTH.HEXAEIGHT.COM and Certified by AUTH.HEXAEIGHT.COM
-This message was generated at 4/15/2022 11:45:21 AM
+This message was generated at 5/5/2022 1:12:09 PM
 -----------------------------------------------------------
 ```
 
