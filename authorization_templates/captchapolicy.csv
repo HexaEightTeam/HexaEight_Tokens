@@ -1,0 +1,10 @@
+# Captcha Sample Policy File
+
+# Example of Denying access to specific email address
+#p, evil@gmail.com, /*, CAPTCHA, deny
+
+# Allow Only specific Email Domain to request for a Captcha
+#p, /*@mydomain.com, resourcename, CAPTCHA, enable
+
+# Allow All Email Addresses to request for a Captcha
+p, /*@/*./*, resourcename, CAPTCHA, enable
