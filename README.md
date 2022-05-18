@@ -83,7 +83,7 @@ Path      : C:\tokens\HexaEight_Token_Issuer.exe
 You will see a message which will confirm if the file is safe to execute in your environment. Remove the file if the verification fails.
 
 
-### METHOD 2: Run the program with the verifycert option to validate the executable using the HIC file. (You can use this option after Method #1 succeeds to re-verify the executable multiple times)
+### METHOD 2: Run the program with the verifycert option to validate the executable using the HIC file. (You can use this option after Method #1 succeeds)
 
 You should see a message that contains the authenticated encrypted information from the HIC file which was decrypted using the Hash of the File which would prove the authenticity of the executable.
 
