@@ -83,7 +83,35 @@ Path      : C:\tokens\HexaEight_Token_Issuer.exe
 You will see a message which will confirm if the file is safe to execute in your environment. Remove the file if the verification fails.
 
 
-### METHOD 2: The old fashioned way of validating the hash manully without the HIC file. 
+### METHOD 2: Run the program with the verifycert option to validate the executable using the HIC file. (You can use this option after Method #1 succeeds to re-verify the executable multiple times)
+
+You should see a message that contains the authenticated encrypted information from the HIC file which was decrypted using the Hash of the File which would prove the authenticity of the executable.
+
+```
+c:\tokens>HexaEight_Token_Issuer.exe --verifycert
+
+-----------------------------------------------------------
+FileName : HexaEight_Token_Issuer.exe
+VerifiedHash : d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
+HashAlgorithm : SHA512
+Description : HexaEight Token Issuer Service 1.6.801.0
+Publisher : AUTH.HEXAEIGHT.COM
+Issuer : AUTH.HEXAEIGHT.COM
+Certificate Issued At : 27544634
+Certificate Expiry At : 27803820
+AuthenticData : This File or Sofware [HexaEight_Token_Issuer.exe] has been verified successfully.
+
+The Hash can also be manually verified by combining the following properties below:
+FILENAME followed By HASHOFTHISFILE followed by DESCRIPTION
+The above SHA512 Hash should match with d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
+
+Note: This message wont be displayed if this File or Software was altered or tampered.
+This is a Software Publisher Certificate Published by AUTH.HEXAEIGHT.COM and Certified by AUTH.HEXAEIGHT.COM
+This message was generated at 5/16/2022 11:21:07 PM
+-----------------------------------------------------------
+```
+
+### METHOD 3: The old fashioned way of validating the hash manully without the HIC file. 
  
 a) Get the Hash of the Executable File using a tool or use powershell commannd 
     
@@ -126,34 +154,6 @@ HexaEight_Token_Issuer.exe213176019588..................CB106370BHexaEight Token
 There should be no leading or trailing spaces. Paste this in an online tool https://sha512.online/ and click on the generate hash button. You will see a generated  hash that should match with the VerifiedHash. If the hash matches, the executable is safe.
 
 ```
------------------------------------------------------------
-FileName : HexaEight_Token_Issuer.exe
-VerifiedHash : d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
-HashAlgorithm : SHA512
-Description : HexaEight Token Issuer Service 1.6.801.0
-Publisher : AUTH.HEXAEIGHT.COM
-Issuer : AUTH.HEXAEIGHT.COM
-Certificate Issued At : 27544634
-Certificate Expiry At : 27803820
-AuthenticData : This File or Sofware [HexaEight_Token_Issuer.exe] has been verified successfully.
-
-The Hash can also be manually verified by combining the following properties below:
-FILENAME followed By HASHOFTHISFILE followed by DESCRIPTION
-The above SHA512 Hash should match with d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
-
-Note: This message wont be displayed if this File or Software was altered or tampered.
-This is a Software Publisher Certificate Published by AUTH.HEXAEIGHT.COM and Certified by AUTH.HEXAEIGHT.COM
-This message was generated at 5/16/2022 11:21:07 PM
------------------------------------------------------------
-```
-
-### METHOD 3: Run the program with the verifycert option to validate the executable using the HIC file. (You can use this option after Method #1 succeeds to re-verify the executable multiple times)
-
-You should see a message that contains the authenticated encrypted information from the HIC file which was decrypted using the Hash of the File which would prove the authenticity of the executable.
-
-```
-c:\tokens>HexaEight_Token_Issuer.exe --verifycert
-
 -----------------------------------------------------------
 FileName : HexaEight_Token_Issuer.exe
 VerifiedHash : d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
