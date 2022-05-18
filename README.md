@@ -10,7 +10,7 @@ This Repository contains the links to the Latest Release of HexaEight Tokens alo
 >
 >The zip file also contains the [HexaEight Issued Certificate (.hic) file](https://github.com/HexaEightTeam/HexaEight_Tokens/blob/main/win_x64/HexaEight_Token_Issuer.hic) which is tied to this executable
 >
->The current HexaEight Verified hash (Not the same as the File hash) of Windows x64 Executable is  d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
+>The current HexaEight Verified hash (Not the same as the File hash) of Windows x64 Executable is  e20423586632567b0663069e1d6fc6925c18a2283ba4c51aea60fa64eda96b907011b7a76ae15a506efe3c3aea256133057987ca90ed88f6cac75abd948cee87
 >
   
   
@@ -92,22 +92,22 @@ c:\tokens>HexaEight_Token_Issuer.exe --verifycert
 
 -----------------------------------------------------------
 FileName : HexaEight_Token_Issuer.exe
-VerifiedHash : d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
+VerifiedHash : e20423586632567b0663069e1d6fc6925c18a2283ba4c51aea60fa64eda96b907011b7a76ae15a506efe3c3aea256133057987ca90ed88f6cac75abd948cee87
 HashAlgorithm : SHA512
 Description : HexaEight Token Issuer Service 1.6.801.0
 Publisher : AUTH.HEXAEIGHT.COM
 Issuer : AUTH.HEXAEIGHT.COM
-Certificate Issued At : 27544634
-Certificate Expiry At : 27803820
+Certificate Issued At : 27547315
+Certificate Expiry At : 27806505
 AuthenticData : This File or Sofware [HexaEight_Token_Issuer.exe] has been verified successfully.
 
 The Hash can also be manually verified by combining the following properties below:
 FILENAME followed By HASHOFTHISFILE followed by DESCRIPTION
-The above SHA512 Hash should match with d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
+The above SHA512 Hash should match with e20423586632567b0663069e1d6fc6925c18a2283ba4c51aea60fa64eda96b907011b7a76ae15a506efe3c3aea256133057987ca90ed88f6cac75abd948cee87
 
 Note: This message wont be displayed if this File or Software was altered or tampered.
 This is a Software Publisher Certificate Published by AUTH.HEXAEIGHT.COM and Certified by AUTH.HEXAEIGHT.COM
-This message was generated at 5/16/2022 11:21:07 PM
+This message was generated at 5/18/2022 10:01:54 AM
 -----------------------------------------------------------
 ```
 
@@ -156,22 +156,22 @@ There should be no leading or trailing spaces. Paste this in an online tool http
 ```
 -----------------------------------------------------------
 FileName : HexaEight_Token_Issuer.exe
-VerifiedHash : d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
+VerifiedHash : e20423586632567b0663069e1d6fc6925c18a2283ba4c51aea60fa64eda96b907011b7a76ae15a506efe3c3aea256133057987ca90ed88f6cac75abd948cee87
 HashAlgorithm : SHA512
 Description : HexaEight Token Issuer Service 1.6.801.0
 Publisher : AUTH.HEXAEIGHT.COM
 Issuer : AUTH.HEXAEIGHT.COM
-Certificate Issued At : 27544634
-Certificate Expiry At : 27803820
+Certificate Issued At : 27547315
+Certificate Expiry At : 27806505
 AuthenticData : This File or Sofware [HexaEight_Token_Issuer.exe] has been verified successfully.
 
 The Hash can also be manually verified by combining the following properties below:
 FILENAME followed By HASHOFTHISFILE followed by DESCRIPTION
-The above SHA512 Hash should match with d2b920725c366bd5d46aaf4fd1ceab6db4c86ed03a5283ec0d2a59c931dbc3db7a78921dd01d78603ceb294652965cccc1e93e85ecf17f6f94ca4c3780a25a44
+The above SHA512 Hash should match with e20423586632567b0663069e1d6fc6925c18a2283ba4c51aea60fa64eda96b907011b7a76ae15a506efe3c3aea256133057987ca90ed88f6cac75abd948cee87
 
 Note: This message wont be displayed if this File or Software was altered or tampered.
 This is a Software Publisher Certificate Published by AUTH.HEXAEIGHT.COM and Certified by AUTH.HEXAEIGHT.COM
-This message was generated at 5/16/2022 11:21:07 PM
+This message was generated at 5/18/2022 10:01:54 AM
 -----------------------------------------------------------
 ```
 
